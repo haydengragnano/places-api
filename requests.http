@@ -1,0 +1,26 @@
+### Photos Index
+  GET http://localhost:3000/places
+
+### Photos Create
+  POST http://localhost:3000/places
+  Content-Type: application/json
+
+  {
+    "name": "rob",
+    "address": "a castle"
+  }
+
+### Photos Show
+  GET http://localhost:3000/places/1
+
+### Photos Update
+  PATCH http://localhost:3000/places/6
+  Content-Type: application/json
+
+  {
+    "name": "hayden"
+    
+  }
+
+### Photos Destroy
+    DELETE http://localhost:3000/places/4
